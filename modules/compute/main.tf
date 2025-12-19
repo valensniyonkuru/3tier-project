@@ -14,7 +14,7 @@ resource "aws_launch_template" "three_tier_lt" {
               yum install -y httpd
               systemctl start httpd
               systemctl enable httpd
-              echo "Hello from Terraform 3-Tier App" > /var/www/html/index.html
+              echo "Hello WE STARTED Terraform AT AMALITECH !!" > /var/www/html/index.html
               EOF
   )
 
