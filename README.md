@@ -152,4 +152,8 @@ After applying, Terraform will display:
 <img width="959" height="419" alt="image" src="https://github.com/user-attachments/assets/0f6abb9f-3119-4322-8999-fae0d832c043" />
 - EC2/ASG
 <img width="1918" height="727" alt="image" src="https://github.com/user-attachments/assets/9b9d9080-073d-43d9-9407-b247b85530e1" />
+- VPC
+<img width="1918" height="706" alt="image" src="https://github.com/user-attachments/assets/9cedd03c-9a5d-44e2-a643-760f2d55cfa5" />
+
+<img width="1918" height="724" alt="image" src="https://github.com/user-attachments/assets/a0fe2bfe-81ce-469c-85f9-edd438a0ec49" />
 
