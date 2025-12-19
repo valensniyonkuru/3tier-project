@@ -7,3 +7,8 @@ output "launch_template_id" {
   description = "The ID of the Launch Template"
   value       = aws_launch_template.three_tier_lt.id
 }
+
+output "bastion_public_ip" {
+  description = "Public IP of Bastion Host"
+  value       = aws_instance.bastion.public_ip
+}

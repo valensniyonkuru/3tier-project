@@ -13,3 +13,7 @@ output "asg_name" {
 output "rds_endpoint" {
   value = module.database.db_endpoint
 }
+
+output "bastion_public_ip" {
+  value = module.compute.bastion_public_ip
+}

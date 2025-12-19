@@ -3,6 +3,7 @@ resource "aws_launch_template" "three_tier_lt" {
   name_prefix   = "three_tier_lt"
   image_id      = data.aws_ssm_parameter.amzn2.value
   instance_type = var.instance_type
+  key_name      = var.key_name
 
   vpc_security_group_ids = [var.security_group_id]
 
@@ -44,5 +45,18 @@ resource "aws_autoscaling_group" "three_tier_asg" {
     key                 = "Name"
     value               = "three_tier_asg_instance"
     propagate_at_launch = true
+  }
+}
+
+# Create Bastion Host
+resource "aws_instance" "bastion" {
+  ami                    = data.aws_ssm_parameter.amzn2.value
+  instance_type          = var.instance_type
+  subnet_id              = var.public_subnet_id
+  key_name               = var.key_name
+  vpc_security_group_ids = [var.bastion_sg_id]
+
+  tags = {
+    Name = "three_tier_bastion"
   }
 }
