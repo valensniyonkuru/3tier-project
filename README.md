@@ -150,3 +150,6 @@ After applying, Terraform will display:
 
 - RDS
 <img width="959" height="419" alt="image" src="https://github.com/user-attachments/assets/0f6abb9f-3119-4322-8999-fae0d832c043" />
+- EC2/ASG
+<img width="1918" height="727" alt="image" src="https://github.com/user-attachments/assets/9b9d9080-073d-43d9-9407-b247b85530e1" />
+
