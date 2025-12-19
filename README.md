@@ -142,3 +142,9 @@ After applying, Terraform will display:
 | `rds_endpoint` | The endpoint URL for the RDS database               |
 | `asg_name`     | The name of the Auto Scaling Group                  |
 | `vpc_id`       | The ID of the created VPC                           |
+
+
+###  Screenshots
+- ALB
+<img width="959" height="421" alt="image" src="https://github.com/user-attachments/assets/5e7da732-8265-4883-83aa-d03a4aaddaba" />
+
