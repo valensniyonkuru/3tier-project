@@ -108,7 +108,7 @@ The repository is structured into reusable modules:
     After successful deployment, Terraform will output the `alb_dns`. Copy and paste it into your browser.
 
     ```
-    http://<alb_dns_output>
+    http://three-tier-alb-1208677170.eu-central-1.elb.amazonaws.com 
     ```
 
     You should see: `"Hello WE STARTED Terraform AT AMALITECH !!"`
