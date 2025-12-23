@@ -108,7 +108,7 @@ The repository is structured into reusable modules:
     After successful deployment, Terraform will output the `alb_dns`. Copy and paste it into your browser.
 
     ```
-    http://<alb_dns_output>
+    http://three-tier-alb-1208677170.eu-central-1.elb.amazonaws.com 
     ```
 
     You should see: `"Hello WE STARTED Terraform AT AMALITECH !!"`
@@ -147,6 +147,10 @@ After applying, Terraform will display:
 
 - ALB
   <img width="959" height="421" alt="image" src="https://github.com/user-attachments/assets/5e7da732-8265-4883-83aa-d03a4aaddaba" />
+  
+-  A screenshot of a successful ICMP (ping) response from the ALB target or a bastion connected to an application server.
+  <img width="1401" height="954" alt="image" src="https://github.com/user-attachments/assets/79270046-1c99-4b3c-85cb-cc0850eead8c" />
+
 
 - RDS
   <img width="959" height="419" alt="image" src="https://github.com/user-attachments/assets/0f6abb9f-3119-4322-8999-fae0d832c043" />
@@ -156,3 +160,9 @@ After applying, Terraform will display:
   <img width="1918" height="706" alt="image" src="https://github.com/user-attachments/assets/9cedd03c-9a5d-44e2-a643-760f2d55cfa5" />
 
 <img width="1918" height="724" alt="image" src="https://github.com/user-attachments/assets/a0fe2bfe-81ce-469c-85f9-edd438a0ec49" />
+
+- Output from `terraform apply`
+  <img width="1387" height="951" alt="image" src="https://github.com/user-attachments/assets/c5e8e543-3628-4760-adbe-836e8e26e65a" />
+  
+
+<img width="1915" height="799" alt="image" src="https://github.com/user-attachments/assets/6596fb8b-2bb0-4b0b-9a6d-4bb6cfd2908e" />
