@@ -24,27 +24,8 @@ The architecture consists of three layers (tiers) spread across two Availability
 
 ### Architecture Diagram
 
-```ascii
-                         ┌─────────────────────────────┐
-                         │     Application Load        │
-                         │        Balancer (ALB)       │
-                         └──────────────┬──────────────┘
-                                        │
-               ┌────────────────────────────────────────────────┐
-               │                                                │
-        Public Subnet A                                  Public Subnet B
-               │                                                │
-               ▼                                                ▼
-        ┌─────────────┐                                  ┌─────────────┐
-        │  Web/App    │                                  │  Web/App    │
-        │   EC2/ASG   │                                  │   EC2/ASG   │
-        └─────────────┘                                  └─────────────┘
-               ▼                                                ▼
-        ┌────────────────────────────────────────────────────────────────┐
-        │                        RDS MySQL DB                            │
-        │                      (Private DB Subnets)                      │
-        └────────────────────────────────────────────────────────────────┘
-```
+<img width="756" height="876" alt="image" src="https://github.com/user-attachments/assets/54ee34ea-d55a-4798-a90d-66d7c0711570" />
+
 
 ## Modules Description
 
