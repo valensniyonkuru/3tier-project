@@ -147,6 +147,10 @@ After applying, Terraform will display:
 
 - ALB
   <img width="959" height="421" alt="image" src="https://github.com/user-attachments/assets/5e7da732-8265-4883-83aa-d03a4aaddaba" />
+  
+-  A screenshot of a successful ICMP (ping) response from the ALB target or a bastion connected to an application server.
+  <img width="1401" height="954" alt="image" src="https://github.com/user-attachments/assets/79270046-1c99-4b3c-85cb-cc0850eead8c" />
+
 
 - RDS
   <img width="959" height="419" alt="image" src="https://github.com/user-attachments/assets/0f6abb9f-3119-4322-8999-fae0d832c043" />
