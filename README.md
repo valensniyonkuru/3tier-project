@@ -156,6 +156,7 @@ After applying, Terraform will display:
   <img width="1918" height="706" alt="image" src="https://github.com/user-attachments/assets/9cedd03c-9a5d-44e2-a643-760f2d55cfa5" />
 
 <img width="1918" height="724" alt="image" src="https://github.com/user-attachments/assets/a0fe2bfe-81ce-469c-85f9-edd438a0ec49" />
+
 - Output from `terraform apply`
   <img width="1387" height="951" alt="image" src="https://github.com/user-attachments/assets/c5e8e543-3628-4760-adbe-836e8e26e65a" />
 
